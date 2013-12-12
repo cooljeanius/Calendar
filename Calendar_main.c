@@ -155,7 +155,7 @@ int main (int argc, const char * argv[]) { // Taken from template for arguments 
 				}
 				day = 0; // Reset because it only starts on a certain day in the first week
 			}
-			k--; // don't really get why I need this, but I do.
+			k--; // don't really get why I need this, but I do (to get the day numbers printed correctly)
 			printf("\n"); // Each row ends in a newline
 		}
 		// day = 0; // Reset because it only starts on a certain day in the first week
